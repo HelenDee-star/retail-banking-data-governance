@@ -3,7 +3,8 @@
 A business data model for retail banking, built to show how a business concept moves from an agreed definition, to a model, to a testable data quality rule, with a named owner accountable for its meaning.
 
 **Looking for:** data governance, data quality and data steward roles, in the Netherlands and the EU.
-**Contact:** [Your name] | [Email] | [LinkedIn]
+
+**Contact:** Helen Adesoba | helen.adesoba55@gmail.com | www.linkedin.com/in/helen-adesoba-900a8277
 
 > **Read this first.** This is a learning and demonstration project. It is not based on any real bank. The Berka dataset is a public Czech bank dataset from 1999. Owners, thresholds, retention periods, severities and the policy are **assumed** and were not validated with any stakeholder.
 > **Measured** means run on Berka. **Designed** means set out on paper and not operated.
