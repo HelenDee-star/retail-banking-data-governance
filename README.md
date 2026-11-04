@@ -2,6 +2,8 @@
 
 A business data model for retail banking, built to show how a business concept moves from an agreed definition, to a model, to a testable data quality rule, with a named owner accountable for its meaning.
 
+**Framework:** DAMA-DMBOK (2nd edition). See the [DAMA-DMBOK alignment](#dama-dmbok-alignment) table below.
+
 **Looking for:** data governance, data quality and data steward roles, in the Netherlands and the EU.
 
 **Contact:** Helen Adesoba | helen.adesoba55@gmail.com | www.linkedin.com/in/helen-adesoba-900a8277
@@ -29,6 +31,24 @@ Business terms such as Customer and Account Holder are read differently across a
 - **Draft data quality and stewardship policy:** eight policy statements and ten controls. *Designed.*
 - **BCBS 239 note:** BCBS 239 is the Basel Committee's set of principles on how banks gather, govern and report risk data. The note maps the work to them. *Designed.*
 - **Data quality rules:** nine rules and two findings run on Berka. *Measured.*
+
+## DAMA-DMBOK alignment
+
+This project is mapped to the 11 knowledge areas of DAMA-DMBOK (2nd edition). The mapping is my own reading of the framework for this learning project. It is not a certification or a compliance claim.
+
+| DMBOK knowledge area | Coverage | Where it is shown | Status |
+|---|---|---|---|
+| Data Governance | Core | Governance operating model, six stewardship roles, RACI, decision rights, escalation, scorecard with owners and thresholds (case studies 2 and 4) | Designed |
+| Data Quality | Core | Profiling, nine rules (R1 to R9) and two findings (F1, F2) run on Berka, synthetic tests, scorecard (case studies 1 and 4, scripts 02 to 08) | Measured (rules), Designed (scorecard thresholds) |
+| Metadata Management | Core | Business glossary (17 attributes), metadata register (30 columns), traceability from term to rule, source-to-target mapping (case study 3, `metadata/metadata_register.xlsx`) | Designed |
+| Data Modelling and Design | Core | Conceptual model (8 concepts), logical model (8 tables, 30 columns, 7 foreign keys), crow's foot notation (case study 3) | Designed |
+| Data Security | Partial | Data classification, retention, and mapping of controls to GDPR, Wwft and BCBS 239 (case study 5) | Designed |
+| Reference and Master Data | Partial | Party, Customer and Account Holder definitions, Channel Type value list, proposed "internal posting" value | Designed |
+| Data Architecture | Not covered | The model is a business and logical model, not an enterprise architecture | n/a |
+| Data Integration and Interoperability | Not covered | No pipelines or integration design | n/a |
+| Data Storage and Operations | Not covered | DuckDB was used for analysis only | n/a |
+| Document and Content Management | Not covered | Out of scope | n/a |
+| Data Warehousing and Business Intelligence | Not covered | Out of scope. This is not a data warehouse design | n/a |
 
 ## Six business needs
 
