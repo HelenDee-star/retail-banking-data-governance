@@ -81,7 +81,7 @@ The public **Berka dataset**, a Czech bank dataset from 1999. Four tables were u
 
 An entity-relationship model for operational data, in crow's foot notation. It is a business model and a logical model, not a data warehouse design. **Customer** is the established relationship of a Party. **Account Holder** is a role, recorded as one record per Customer and Account. The logical model has 8 tables, 30 columns (17 business attributes, 6 surrogate keys and 7 foreign keys) and 7 foreign key relationships. It is on the next page.
 
-![Conceptual model: eight business concepts and how they relate](images/conceptual-model.png)
+![Conceptual model: eight business concepts and how they relate](images/conceptual_model.png)
 
 *Conceptual model: eight business concepts and how they relate.*
 
@@ -102,7 +102,7 @@ An entity-relationship model for operational data, in crow's foot notation. It i
 
 Eight tables, 30 columns and 7 foreign keys. PK = primary key, FK = foreign key, UK = unique key. Every column is required. The full-size image is in the repository under portfolio/images.
 
-![Logical model: tables, keys and relationships](images/logical-model.png)
+![Logical model: tables, keys and relationships](images/logical_model.png)
 
 *Logical model: tables, keys and relationships (8 tables, 30 columns, 7 foreign keys).*
 
