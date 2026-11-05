@@ -2,7 +2,7 @@
 
 From an agreed definition, to a model, to a testable data quality rule, with a named owner accountable for its meaning
 
-Helen Adesoba · <helen.adesoba55@gmail.com> · [www.linkedin.com/in/helen-adesoba-900a8277](http://www.linkedin.com/in/helen-adesoba-900a8277) · Code and data: [github.com/HelenDee-star/retail-banking-data-governance](https://github.com/HelenDee-star/retail-banking-data-governance)
+Helen Adesoba |  <helen.adesoba55@gmail.com> |  [www.linkedin.com/in/helen-adesoba-900a8277](http://www.linkedin.com/in/helen-adesoba-900a8277) |  Code and data: [github.com/HelenDee-star/retail-banking-data-governance](https://github.com/HelenDee-star/retail-banking-data-governance)
 
 Looking for: data governance, data quality and data steward roles, in the Netherlands and the EU. |  **Framework:** DAMA-DMBOK
 
